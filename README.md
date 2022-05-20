@@ -16,15 +16,19 @@
 ```javascript
 const aboutMe = {
    pronouns: "he" | "him",
-   code: [Javascript, Typescript, Python, Java],
+   code: [Javascript, Typescript, Python, Java, Dart],
    technologies: {
       backEnd: {
          js: ["Node", "Express"],
-         misc: ["Bash"]
+         golang : ["Iris"],
+         misc: ["Bash","Docker"],
       },
+      testing : ["Postman"],
       databases: ["MongoDB", "mySQL", "PostgreSQL"],
-      mobile: ["Flutter"]
+      mobile: ["Flutter"],
+      CICD : ["GitHub actions"]
    },
+   OS : ["Windows","Linux"],
    currentOccupation: ["last year student, open for job opportunities"],
    challenge: "I'm learning how to implement CI/CD in my projects"
 };
